@@ -107,3 +107,75 @@ console.log("String * number:", vreemdeBerekening);
 console.log("\n=== LAATSTE SECTIE ===");
 let laatsteVariabele = "Einde van het programma";
 console.log(laatsteVariabele);
+
+// Increment en decrement operatoren
+console.log("\n=== INCREMENT/DECREMENT ===");
+let teller = 0;
+console.log("Start teller:", teller);
+teller++;
+console.log("Na teller++:", teller);
+teller--;
+console.log("Na teller--:", teller);
+teller += 5;
+console.log("Na teller += 5:", teller);
+
+// FOUT: verkeerde operator
+let foutTeller = 10;
+foutTeller =+ 5; // Moet += zijn, niet =+
+console.log("Fout teller:", foutTeller);
+
+// Objecten (met fouten)
+console.log("\n=== OBJECTEN ===");
+let persoon = {
+    naam: "Emma",
+    leeftijd: 30,
+    stad: "Utrecht"
+};
+console.log("Persoon:", persoon);
+console.log("Naam van persoon:", persoon.naam);
+
+// FOUT: komma vergeten in object
+let auto = {
+    merk: "Toyota",
+    model: "Corolla", // Vergeten komma op vorige regel!
+    jaar: 2020
+};
+console.log("Auto:", auto);
+
+// NaN en Infinity
+console.log("\n=== SPECIALE WAARDEN ===");
+let geenGetal = "text" - 5;
+console.log("NaN voorbeeld:", geenGetal);
+console.log("Is NaN?:", isNaN(geenGetal));
+let oneindig = 1 / 0;
+console.log("Infinity:", oneindig);
+
+// FOUT: verkeerde vergelijking
+console.log("\n=== VERGELIJKINGEN ===");
+let looseEquals = "5" == 5; // Gebruik === in plaats van ==
+console.log("Loose equality:", looseEquals);
+let strictEquals = "5" === 5;
+console.log("Strict equality:", strictEquals);
+
+// Ternary operator
+console.log("\n=== TERNARY OPERATOR ===");
+let score = 75;
+let resultaat = score >= 60 ? "Geslaagd" : "Gezakt";
+console.log("Resultaat:", resultaat);
+
+// FOUT: ontbrekende puntkomma en haakje
+console.log("\n=== BEREKENINGEN ===");
+let som = (5 + 3 * 2); // Haakje niet gesloten!
+console.log("Som:", som);
+
+// Type checking
+console.log("\n=== TYPE CHECKING ===");
+console.log("Type van 'hello':", typeof "hello");
+console.log("Type van 42:", typeof 42);
+console.log("Type van true:", typeof true);
+console.log("Type van undefined:", typeof undefined);
+console.log("Type van null:", typeof null); // Geeft "object" (bekende JavaScript quirk)
+
+// FOUT: variabele naam met spatie
+let mijn variabele = "Dit werkt niet!"; // Spatie in variabele naam!
+console.log(mijn variabele);
