@@ -26,6 +26,7 @@ let isStudent = true;
 const heeftRijbewijs = false;
 let isActief = true;
 let isGeregistreerd = false;
+let isPremiumLid = true;
 
 console.log("\n=== BOOLEAN VARIABELEN ===");
 console.log("Is student:", isStudent);
