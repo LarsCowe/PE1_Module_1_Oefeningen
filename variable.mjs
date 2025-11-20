@@ -28,6 +28,7 @@ let isActief = true;
 let isGeregistreerd = false;
 let isPremiumLid = true;
 let isBeheerder = false;
+let isGeregistreerd = false;
 
 console.log("\n=== BOOLEAN VARIABELEN ===");
 console.log("Is student:", isStudent);
