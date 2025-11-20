@@ -21,6 +21,7 @@ console.log("Leeftijd:", leeftijd);
 console.log("Jaar:", jaar);
 console.log("Temperatuur:", temperatuur);
 console.log("Leeftijd + 5:", leeftijd + 5);
+console.log("Temperatuur * 2:", temperatuur * 2);
 // Boolean variabelen
 let isStudent = true;
 const heeftRijbewijs = false;
