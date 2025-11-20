@@ -30,10 +30,14 @@ let isPremiumLid = true;
 let isBeheerder = false;
 let isGeregistreerd = false;
 
+
 console.log("\n=== BOOLEAN VARIABELEN ===");
 console.log("Is student:", isStudent);
 console.log("Heeft rijbewijs:", heeftRijbewijs);
 console.log("Is actief:", isActief);
+console.log("Is geregistreerd:", isGeregistreerd);
+console.log("Is premium lid:", isPremiumLid);
+console.log("Is beheerder:", isBeheerder);
 
 // Basis operatoren
 console.log("\n=== REKENKUNDIGE OPERATOREN ===");
