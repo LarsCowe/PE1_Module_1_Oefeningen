@@ -38,6 +38,7 @@ console.log("Is actief:", isActief);
 console.log("Is geregistreerd:", isGeregistreerd);
 console.log("Is premium lid:", isPremiumLid);
 console.log("Is beheerder:", isBeheerder);
+console.log("Is geregistreerd:", isGeregistreerd);
 
 // Basis operatoren
 console.log("\n=== REKENKUNDIGE OPERATOREN ===");
