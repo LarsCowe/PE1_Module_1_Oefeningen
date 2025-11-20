@@ -25,6 +25,7 @@ console.log("Leeftijd + 5:", leeftijd + 5);
 let isStudent = true;
 const heeftRijbewijs = false;
 let isActief = true;
+let isGeregistreerd = false;
 
 console.log("\n=== BOOLEAN VARIABELEN ===");
 console.log("Is student:", isStudent);
