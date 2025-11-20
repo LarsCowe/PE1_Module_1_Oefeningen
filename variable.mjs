@@ -20,7 +20,7 @@ console.log("\n=== NUMBER VARIABELEN ===");
 console.log("Leeftijd:", leeftijd);
 console.log("Jaar:", jaar);
 console.log("Temperatuur:", temperatuur);
-
+console.log("Leeftijd + 5:", leeftijd + 5);
 // Boolean variabelen
 let isStudent = true;
 const heeftRijbewijs = false;
