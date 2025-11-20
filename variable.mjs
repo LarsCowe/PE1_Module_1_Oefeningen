@@ -56,3 +56,54 @@ console.log("10 > 5:", 10 > 5);
 console.log("10 < 5:", 10 < 5);
 console.log("10 === 10:", 10 === 10);
 console.log("10 !== 5:", 10 !== 5);
+
+// Logische operatoren
+console.log("\n=== LOGISCHE OPERATOREN ===");
+let heeftAccount = true;
+let isIngelogd = false;
+console.log("EN operator (&&):", heeftAccount && isIngelogd);
+console.log("OF operator (||):", heeftAccount || isIngelogd);
+console.log("NIET operator (!):", !isIngelogd);
+
+// Type conversies (met fouten!)
+console.log("\n=== TYPE CONVERSIES ===");
+let stringGetal = "42";
+let getalVanString = Number(stringGetal);
+console.log("String naar number:", getalVanString);
+
+// FOUT: variabele niet gedeclareerd
+nietGedeclareerd = "Deze variabele is niet gedeclareerd!";
+console.log(nietGedeclareerd);
+
+// FOUT: const proberen te wijzigen
+const vastGetal = 100;
+vastGetal = 200; // Dit geeft een error!
+console.log("Vast getal:", vastGetal);
+
+// Arrays (met fout)
+console.log("\n=== ARRAYS ===");
+let getallen = [1, 2, 3, 4, 5];
+console.log("Array:", getallen);
+console.log("Eerste element:", getallen[0]);
+// FOUT: verkeerde array syntax
+let fruitjes = [appel, "banaan", "peer"]; // appel is niet tussen quotes!
+console.log("Fruit:", fruitjes);
+
+// Undefined en null
+console.log("\n=== UNDEFINED EN NULL ===");
+let ongedefinieerd;
+let leeg = null;
+console.log("Undefined:", ongedefinieerd);
+console.log("Null:", leeg);
+
+// FOUT: delen door nul
+console.log("\n=== WISKUNDIGE BEWERKINGEN ===");
+let resultaat = 10 / 0;
+console.log("Delen door 0:", resultaat);
+let vreemdeBerekening = "5" * 2; // String vermenigvuldigen?
+console.log("String * number:", vreemdeBerekening);
+
+// FOUT: ontbrekende haakje
+console.log("\n=== LAATSTE SECTIE ===");
+let laatsteVariabele = "Einde van het programma";
+console.log(laatsteVariabele);
