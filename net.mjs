@@ -24,3 +24,7 @@ switch (key) {
   default:
     break;
 }
+
+consoleelog("Typo in consolelog");
+
+testt;
