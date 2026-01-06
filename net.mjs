@@ -12,3 +12,15 @@ export const exampleVariable = 42;
 export const anotherVariable = "Hello, World!";
 
 console.error("errormessage");
+
+if (true) {
+  console.log("This will always run.");
+}
+
+switch (key) {
+  case value:
+    break;
+
+  default:
+    break;
+}
