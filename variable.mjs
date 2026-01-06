@@ -191,3 +191,20 @@ if (true) {
     let blockVariabele = "Ik besta alleen binnen dit blok";
 }
 console.log(blockVariabele); // FOUT: blockVariabele is niet gedefinieerd buiten het blok
+
+// Einde van het programma
+console.log("\n=== EINDE VAN HET PROGRAMMA ===");
+// api aanroep test
+import fetch from 'node-fetch';
+
+async function fetchData() {
+    try {
+        const response = await fetch('https://jsonplaceholder.typicode.com/posts/1');
+        const data = await response.json();
+        console.log("API Data:", data);
+    } catch (error) {
+        console.error("Fout bij het ophalen van data:", error);
+    }
+}
+
+fetchData();
