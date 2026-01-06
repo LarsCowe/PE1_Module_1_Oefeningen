@@ -1,38 +1,12 @@
-// code voorbeeld
-export function exampleFunction() {
-  console.log("This is an example function.");
+// demo van applicatie
+
+export function demoApp() {
+  console.log("Demo applicatie gestart");
+  // Voeg hier de logica van de demo applicatie toe
 }
 
-// meer code kan hier worden toegevoegd
-export function anotherFunction() {
-  console.log("This is another function.");
-}
+const demoVariable = 42;
+console.log("Demo variabele waarde:", demoVariable);
+console.log("Demo applicatie beëindigd);
 
-export const exampleVariable = 42;
-export const anotherVariable = "Hello, World!";
-
-console.error("errormessage");
-
-if (true) {
-  console.log("This will always run.");
-}
-
-switch (key) {
-  case value:
-    break;
-
-  default:
-    break;
-}
-
-consoleelog("Typo in consolelog");
-
-testt;
-
-function unusedFunction() {
-  return "I am not used";
-}
-
-6 + 7;
-let unused;
-const unusedConst = 10;
+// einde van demo van applicatie
