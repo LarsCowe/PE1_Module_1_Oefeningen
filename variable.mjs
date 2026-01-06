@@ -26,7 +26,7 @@ console.log("Temperatuur * 2:", temperatuur * 2);
 let isStudent = true;
 const heeftRijbewijs = false;
 let isActief = true;
-let isGeregistreerd = false;
+
 let isPremiumLid = true;
 let isBeheerder = false;
 let isGeregistreerd = false;
@@ -167,11 +167,7 @@ console.log("Loose equality:", looseEquals);
 let strictEquals = "5" === 5;
 console.log("Strict equality:", strictEquals);
 
-// Ternary operator
-console.log("\n=== TERNARY OPERATOR ===");
-let score = 75;
-let resultaat = score >= 60 ? "Geslaagd" : "Gezakt";
-console.log("Resultaat:", resultaat);
+
 
 // FOUT: ontbrekende puntkomma en haakje
 console.log("\n=== BEREKENINGEN ===");
@@ -188,4 +184,10 @@ console.log("Type van null:", typeof null); // Geeft "object" (bekende JavaScrip
 
 // FOUT: variabele naam met spatie
 let mijn variabele = "Dit werkt niet!"; // Spatie in variabele naam!
+
+
 console.log(mijn variabele);
+if (true) {
+    let blockVariabele = "Ik besta alleen binnen dit blok";
+}
+console.log(blockVariabele); // FOUT: blockVariabele is niet gedefinieerd buiten het blok
