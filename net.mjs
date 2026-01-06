@@ -28,3 +28,11 @@ switch (key) {
 consoleelog("Typo in consolelog");
 
 testt;
+
+function unusedFunction() {
+  return "I am not used";
+}
+
+6 + 7;
+let unused;
+const unusedConst = 10;
